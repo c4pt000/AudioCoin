@@ -22,7 +22,7 @@ Debian Stretch
 
     sudo apt-get update
     sudo apt-get upgrade
-     apt-get install git build-essential libssl-dev libdb++-dev libboost-all-dev libqrencode-dev qt5-default qt5-qmake qtbase5-dev-tools qttools5-dev-tools libboost-dev libboost-system-dev libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev libminiupnpc-dev -y
+     apt-get install git build-essential libssl-dev libdb++-dev libboost-all-dev libqrencode-dev qt5-default qt5-qmake qtbase5-dev-tools qttools5-dev-tools libboost-dev libboost-system-dev libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev libminiupnpc-dev libqt5svg5* -y
    
 
 Clone the AudioCoin source using git
