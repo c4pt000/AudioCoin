@@ -6,24 +6,9 @@ To Build headless AudioCoin daemon:
 
 Install all necessary dependencies:
 
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get install git
-sudo apt-get install build-essential
-sudo apt-get install libssl-dev
-sudo apt-get install libdb++-dev
-sudo apt-get install libboost-all-dev
-sudo apt-get install libqrencode-dev
-sudo apt-get install qt5-default 
-sudo apt-get install qt5-qmake 
-sudo apt-get install qtbase5-dev-tools 
-sudo apt-get install qttools5-dev-tools 
-sudo apt-get install libboost-dev 
-sudo apt-get install libboost-system-dev 
-sudo apt-get install libboost-filesystem-dev 
-sudo apt-get install libboost-program-options-dev 
-sudo apt-get install libboost-thread-dev 
-sudo apt-get install libminiupnpc-dev
+sudo apt-get update -y
+sudo apt-get upgrade -y
+ apt-get install git build-essential libssl-dev libdb++-dev libboost-all-dev libqrencode-dev qt5-default qt5-qmake qtbase5-dev-tools qttools5-dev-tools libboost-dev libboost-system-dev libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev libminiupnpc-dev -y
 
 Clone the AudioCoin source using git:
 
